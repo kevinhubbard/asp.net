@@ -2,6 +2,8 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div>My test Page!</div>
+    <div id="main">
+       Centered!
+    </div>
 
 </asp:Content>

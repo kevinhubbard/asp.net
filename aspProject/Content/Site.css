@@ -1,6 +1,6 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
-    padding-top: 50px;
+    padding-top: 75px;
     padding-bottom: 20px;
 }
 
@@ -29,3 +29,21 @@ textarea {
         padding: 0;
     }
 }
+
+#main {
+    display:block;
+    color:gold;
+    border: 5px solid green;
+    text-align:center;
+}
+
+.navbar .navbar-nav {
+    display: inline;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
